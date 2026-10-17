@@ -1,21 +1,17 @@
-title: Moonwalk
-author: Abhinav Saxena
-url: https://www.abhinavsaxena.com # root address of the site
+title: Linda Vuong
+author: Linda Vuong
+url: https://www.lhvuong11.github.io # root address of the site
 baseurl: "/moonwalk/" # set to "/moonwalk" if hosting under a project subpath
 description: > # description of the site (multiple lines allowed)
-  Moonwalk is a fast and elegant Jekyll theme with a clean dark mode. It comes with horizontal list (for navbar and footer), card list (for portfolio), and a generic vertical list. It is very easy to modify in case you want to build over it - please see _layouts/home.html to do that.
+  Linda Vuong's personal website.
 
 permalink: /:slug
-
-twitter:
-  username: abhinav # update or delete this
-  card: summary_large_image
 
 #theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
 remote_theme: abhinavs/moonwalk
 
 theme_config:
-  appearance: "dark" # can be "light", "dark" or "auto"
+  appearance: "auto" # can be "light", "dark" or "auto"
   appearance_toggle: true # if appearance can be switched by user
   date_format: "%Y-%m-%d" # customize how date is formatted
   show_description: true # show blog description
@@ -38,13 +34,10 @@ theme_config:
   show_link_previews: true # show preview cards when hovering internal post links
   # options for "home" page
   home:
-    title_projects: Portfolio
-    title_misc_list: Details
-    title_blog: Blog
-    title_old_projects: Old Projects
-
-soopr:
-  publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
+    title_projects: Relevant Experience
+    #title_misc_list: Details
+    title_blog: Projects
+    #title_old_projects: Old Projects
 
 highlighter: rouge
 
